@@ -22,7 +22,7 @@ public class UITest {
     private MainPage mainPage;
     private SearchPage searchPage;
     private CompanyPage companyPage;
-    private final static String pathToDriver = "/home/kirphone/Programming/Testing/Selenium/chromedriver_linux64/chromedriver";
+    private final static String pathToDriver = System.getenv("CHROMEDRIVER_PATH");
     private final static String habrUrl = "https://habr.com/ru/";
 
     @BeforeEach
